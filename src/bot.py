@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 from utilitybelt import change_charset
 
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-leetspeak  = "@bcd3fgh1jk1mn0pqr57uvwxyz"
+alphabet = "abcdefghijklmnopqrstuvwxyz "
+leetspeak  = "@bcd3fgh1jk1mn0pqr57uvwxyz "
 
 f = open("token", "r")
 token = f.read()
@@ -21,6 +21,6 @@ async def ping(ctx):
 @bot.command()
 async def eet(ctx, str):
     await ctx.send(f"1337 {str}")
-    await ctx.send(change_charset("leetspeak", alphabet, leetspeak))
+    await ctx.send(change_charset(str, alphabet, leetspeak))
 
 bot.run(token)
