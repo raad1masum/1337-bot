@@ -2,7 +2,7 @@
 🤖 A Discord bot to translate English to Leetspeak.
 
 ## 🤖 What does it do?
-Wanna be a 1337 h@ck3r? Just type `leet "leet hacker"`.
+Wanna be a `1337 h@ck3r`? Just type: `leet "leet hacker"`.
 
 ![img](assets/img.jpg)
 
