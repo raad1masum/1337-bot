@@ -15,7 +15,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def eet(ctx):
-    await ctx.send('1337')
+async def eet(ctx, str):
+    await ctx.send(f"1337 {str}")
 
 bot.run(token)
