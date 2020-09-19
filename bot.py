@@ -14,4 +14,8 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send('pong')
 
+@bot.command()
+async def eet(ctx):
+    await ctx.send('1337')
+
 bot.run(token)
