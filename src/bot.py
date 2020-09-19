@@ -20,7 +20,6 @@ async def ping(ctx):
 
 @bot.command()
 async def eet(ctx, str):
-    await ctx.send(f"1337 {str}")
     await ctx.send(change_charset(str, alphabet, leetspeak))
 
 bot.run(token)
