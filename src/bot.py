@@ -5,9 +5,6 @@ from utilitybelt import change_charset
 alphabet = "abcdefghijklmnopqrstuvwxyz "
 leetspeak  = "@bcd3fgh1jk1mn0pqr57uvwxyz "
 
-f = open("token", "r")
-token = f.read()
-
 bot = commands.Bot(command_prefix='l')
 
 @bot.event
@@ -21,5 +18,8 @@ async def ping(ctx):
 @bot.command()
 async def eet(ctx, str):
     await ctx.send(change_charset(str, alphabet, leetspeak))
+
+f = open("token", "r")
+token = f.read()
 
 bot.run(token)
