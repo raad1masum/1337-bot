@@ -12,7 +12,7 @@ def leet(word):
         if letter in alphabet:
             out += leetspeak[alphabet.index(letter)]
         else:
-            out += " "
+            out += letter
     return out
 
 @bot.event
