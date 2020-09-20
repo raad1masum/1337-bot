@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 
 alphabet = "abcdefghijklmnopqrstuvwxyz "
-leetspeak  = "@bcd3fgh1jk1mn09qr57uvwxyz_"
+leetspeak  = "@6cd3fgh1jk1mn09qr57uvwxyz_"
 
 bot = commands.Bot(command_prefix='lee')
 
