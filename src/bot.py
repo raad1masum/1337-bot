@@ -11,6 +11,8 @@ def leet(word):
     for letter in word:
         if letter in alphabet:
             out += leetspeak[alphabet.index(letter)]
+        else:
+            out += " "
     return out
 
 @bot.event
