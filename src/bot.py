@@ -4,7 +4,7 @@ from discord.ext import commands
 alphabet = "abcdefghijklmnopqrstuvwxyz "
 leetspeak  = "@bcd3fgh1jk1mn09qr57uvwxyz_"
 
-bot = commands.Bot(command_prefix='l')
+bot = commands.Bot(command_prefix='lee')
 
 def leet(word):
     out = ""
@@ -24,7 +24,7 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def eet(ctx, str):
+async def t(ctx, str):
     await ctx.send(leet(str))
 
 f = open("token", "r")
